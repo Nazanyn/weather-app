@@ -19,9 +19,45 @@
     <title>Weather App</title>
   </head>
   <body>
-    <div class="container"></div>
-    <h1>hello</h1>
-    <a href="" class="btn btn-primary">Click me</a>
+    <div class="container">
+     <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <div class="overview">
+    <h1 class="city" id="city">Tehran</h1>
+    <ul>
+    <li>Last updated: <span id="date"></span></li>
+              <li id="description"></li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="clearfix weather-temperature">
+                <img src="https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar/Condition_Card/MostlySunnyDay.svg" alt="Clear" id="icon" class="float-left" />
+                <div class="float-left">
+                  <strong id="temperature"></strong
+                  ><span class="units"> °C</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> m/h</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <small>
+          <a
+            href=""
+            target="_blank"
+            >Open-source code</a
+          >
+          by Nazayn
+        </small>
+      </div>
+    </div>
     <script src="src/app.js"></script>
+    </div>
   </body>
 </html>
