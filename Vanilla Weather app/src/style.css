@@ -18,6 +18,12 @@
     max-width: 600px;
     margin:0 auto;
 }
-.units{
-  color: rgb(33, 22, 79);
+.linkD {
+  color:#121946
+}
+.active {
+  color:#121946
+}
+.github{
+    color:#121946
 }
