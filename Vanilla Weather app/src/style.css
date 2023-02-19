@@ -27,3 +27,15 @@
 .github{
     color:#121946
 }
+.btn-current{
+  
+        border: 1px solid #16706c;
+        background: #16706c;
+        color: white;
+        font-size: 22px;
+       
+        border-radius:360px;
+        transition: all 500ms ease;
+     
+        cursor: pointer;
+}
